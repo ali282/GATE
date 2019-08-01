@@ -1,0 +1,3 @@
+--cpu Cortex-M3 "system_stm32f10x.o" "main.o" "taskmanager.o" "general.o" "startup_stm32f10x_hd.o" E:\GATE\Library\RTX_CM3.lib "rtx_conf_cm.o" "gate.o" "misc.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_gpio.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_usart.o" "manage.o" "master.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter "Gate.sct" 
+--summary_stderr --info summarysizes -o Gate.axf

@@ -1,0 +1,5 @@
+--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+--list ".\SVC_Table.lst" --xref -o "SVC_Table.o" --depend "SVC_Table.d" "RTX\SVC_Table.s"

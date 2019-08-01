@@ -1,0 +1,36 @@
+*** Creating Trace Output File 'Gate.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"taskmanager.o"'
+### List of Objects: adding '"general.o"'
+### List of Objects: adding '"startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\Library\RTX_CM3.lib"'
+### List of Objects: adding '"rtx_conf_cm.o"'
+### List of Objects: adding '"gate.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_dma.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"manage.o"'
+### List of Objects: adding '"master.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "system_stm32f10x.o" "main.o" "taskmanager.o" "general.o" "startup_stm32f10x_hd.o" E:\GATE\Library\RTX_CM3.lib "rtx_conf_cm.o" "gate.o" "misc.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_gpio.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_usart.o" "manage.o" "master.o" 
+C:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter "Gate.sct" 
+--summary_stderr --info summarysizes -o Gate.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Gate.axf'
+### ADS-LD Command File: 'Gate.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Gate.lnp', Handle=0x000006D4
+### Writing '.lnp' file
+### ADS-LD Command file 'Gate.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

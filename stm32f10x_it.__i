@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork -I..\GATE -I.\STM32F0xx_AN4055_V1.0.1 -I. 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -o "stm32f10x_it.o" --omf_browse "stm32f10x_it.crf" --depend "stm32f10x_it.d" "stm32f10x_it.c"
